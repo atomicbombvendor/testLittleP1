@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/test/test", //show page by this pages order
+    "pages/test/test",
     "pages/index/index",
     "pages/logs/logs"
   ],

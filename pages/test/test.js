@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    item: "Hello",
+    staffA: { firstName: 'Hulk', lastName: 'Hu' },
+    staffB: { firstName: 'Shang', lastName: 'You' },
+    staffC: { firstName: 'Gideon', lastName: 'Lin' },
+    count: 1
   },
 
   /**
@@ -62,5 +66,11 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  add: function(e){
+    this.setData({
+      count: this.data.count+1
+    })
   }
 })
